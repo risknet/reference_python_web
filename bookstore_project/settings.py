@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # local
     'users.apps.UsersConfig', 
     'pages.apps.PagesConfig',
+    'books.apps.BooksConfig',
 ]
 
 MIDDLEWARE = [
@@ -163,3 +164,4 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True 
 ACCOUNT_UNIQUE_EMAIL = True 
+DEFAULT_FROM_EMAIL = 'admin@bookreview.com' 
